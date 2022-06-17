@@ -24,6 +24,12 @@ public class PrimeiroProjeto {
 
 		System.out.println("DIO - Aprendizado Java");
 		System.out.println("Resultado do produto entre as variaveis A e B é: " + (A * B));
+        
+		gato.setCor("preto");
+		gato.setIdade(2);
+		gato.setNome("Tomas");
+		
+		System.out.println(gato);
 	}
 
 	@Override
